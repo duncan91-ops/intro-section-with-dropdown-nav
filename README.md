@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-intro-section-with-dropdown-using-sass-BkzHapREq)
+- Live Site URL: [Live Site](https://duncan91-ops.github.io/intro-section-with-dropdown-nav/)
 
 ## My process
 
