@@ -25,5 +25,181 @@
 
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
   </head>
-  <body></body>
+  <body>
+    <div class="overlay"></div>
+    <header class="header">
+      <div class="header--links">
+        <div class="logo-box">
+          <a href="/">
+            <img src="./images/logo.svg" alt="logo" class="logo" />
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <span>Features</span>
+                <button class="btn nav__link-btn">
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    alt=""
+                    class="nav__link-btn--open"
+                  />
+                  <img
+                    src="./images/icon-arrow-up.svg"
+                    alt=""
+                    class="nav__link-btn--close"
+                  />
+                </button>
+              </a>
+              <ul class="nav__sub-items">
+                <li class="nav__sub-item">
+                  <a href="" class="nav__sub-link">
+                    <img
+                      src="./images/icon-todo.svg"
+                      alt="todo icon"
+                      class="nav__icon"
+                    />
+                    TodoList
+                  </a>
+                </li>
+                <li class="nav__sub-item">
+                  <a href="" class="nav__sub-link">
+                    <img
+                      src="./images/icon-calendar.svg"
+                      alt="calendar icon"
+                      class="nav__icon"
+                    />
+                    Calendar
+                  </a>
+                </li>
+                <li class="nav__sub-item">
+                  <a href="" class="nav__sub-link">
+                    <img
+                      src="./images/icon-reminders.svg"
+                      alt="reminders icon"
+                      class="nav__icon"
+                    />
+                    Reminders
+                  </a>
+                </li>
+                <li class="nav__sub-item">
+                  <a href="" class="nav__sub-link">
+                    <img
+                      src="./images/icon-planning.svg"
+                      alt="planning icon"
+                      class="nav__icon"
+                    />
+                    Planning
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <span>Company</span>
+                <button class="btn nav__link-btn">
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    alt=""
+                    class="nav__link-btn--open"
+                  />
+                  <img
+                    src="./images/icon-arrow-up.svg"
+                    alt=""
+                    class="nav__link-btn--close"
+                  />
+                </button>
+              </a>
+              <ul class="nav__sub-items">
+                <li class="nav__sub-item">
+                  <a href="" class="nav__sub-link">History</a>
+                </li>
+                <li class="nav__sub-item">
+                  <a href="" class="nav__sub-link">Our Team</a>
+                </li>
+                <li class="nav__sub-item">
+                  <a href="" class="nav__sub-link">Blog</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">Careers</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header--cta">
+        <button class="btn nav-btn">
+          <img
+            src="./images/icon-menu.svg"
+            alt="open nav"
+            class="nav-btn--open"
+          />
+          <img
+            src="./images/icon-close-menu.svg"
+            alt="close nav"
+            class="nav-btn--close"
+          />
+        </button>
+        <button class="btn btn-tertiary login-btn">Login</button>
+        <button class="btn btn-secondary register-btn">Register</button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section">
+        <div class="hero">
+          <picture>
+            <source
+              srcset="./images/image-hero-desktop.png"
+              media="(min-width: 900px)"
+            />
+            <img
+              src="./images/image-hero-mobile.png"
+              alt="hero"
+              class="hero__img"
+            />
+          </picture>
+        </div>
+        <div class="content">
+          <h1 class="title heading-primary">Make remote work</h1>
+          <p class="text">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="btn btn-primary">Learn more</button>
+          <div class="clients">
+            <div class="client">
+              <img
+                src="./images/client-databiz.svg"
+                alt="client logo"
+                class="client__img"
+              />
+            </div>
+            <div class="client">
+              <img
+                src="./images/client-audiophile.svg"
+                alt="client logo"
+                class="client__img"
+              />
+            </div>
+            <div class="client">
+              <img
+                src="./images/client-meet.svg"
+                alt="client logo"
+                class="client__img"
+              />
+            </div>
+            <div class="client">
+              <img
+                src="./images/client-maker.svg"
+                alt="client logo"
+                class="client__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
 </html>
